@@ -14,6 +14,7 @@ Install all dependencies
 
 ### `npm start`
 
+Fill in .env file with necessary data given in .env.example file.
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 

@@ -1,0 +1,27 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.modal-wrapper { display: flex; align-items: flex-start }
+
+.no-trailer { padding: 100px; background: rgba(0, 0, 0, 0.7) }
+
+#close-button {
+    z-index: 999;
+    width: auto;
+    font-size: 50px;
+    line-height: 20px;
+    color: #fff;
+    background: transparent;
+    border: none;
+}
+  
